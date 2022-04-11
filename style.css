@@ -85,6 +85,11 @@ h3 {
     margin-bottom: 0;
 }
 
+.accordion_question:hover {
+    cursor: pointer;
+    color: var(--text-red);
+}
+
 .accordion_question {
     display: flex;
     justify-content: space-between;
@@ -118,6 +123,7 @@ h3 {
 
 .accordion_question:focus,
 .accordion_question:focus-visible {
+    color: black;
     border:none;
     outline: dashed 1px rgba(0, 0, 0, 0.25);
 
